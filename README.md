@@ -79,12 +79,16 @@ Outputs will be automatically created in the /outputs folder:
         comparison_page.json
 
 ## Agents Overview
-    Agent	                              Responsibility
-Parser Agent	            Reads input JSON and extracts structured product data
-QA Generator Agent	        Generates FAQ-style question–answer pairs
-Comparison Agent	        Compares two products using pricing & features
-Template Engine Agent	    Applies templates for structured final output
-Emitter Agent	            Saves output content as JSON files
+            Agent	                              Responsibility
+        Parser Agent	            Reads input JSON and extracts structured product data
+
+        QA Generator Agent	        Generates FAQ-style question–answer pairs
+
+        Comparison Agent	        Compares two products using pricing & features
+
+        Template Engine Agent	    Applies templates for structured final output
+
+        Emitter Agent	            Saves output content as JSON files
 
 ## Key Design Principles
 
