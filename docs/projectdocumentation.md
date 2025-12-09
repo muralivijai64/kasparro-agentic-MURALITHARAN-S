@@ -55,17 +55,17 @@ The system uses **five independent agents**, each responsible for a single task.
 ## 3. Data Flow Pipeline
 
     Input JSON
-    -
+    ↓
     Parser Agent
-    -
+    ↓
     QA Generator Agent
-    -
+    ↓
     Comparison Agent
-    -
+    ↓
     Template Engine Agent
-    -
+    ↓
     Emitter Agent
-    -
+    ↓
     Final Output Files
 
 
@@ -114,10 +114,10 @@ Windows:
 ### Step 4 — Run the main pipeline
     python src/main.py
 ### Step 5 — Output files will be generated
-    Check /outputs/ folder for:
-        product_page.json
-        faq.json
-        comparison_page.json
+Check /outputs/ folder for:
+    product_page.json
+    faq.json
+    comparison_page.json
 
 ## 6. Key Design Choices
  ### Modular Agent Design
