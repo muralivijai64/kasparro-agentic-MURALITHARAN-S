@@ -25,28 +25,28 @@ It is designed with clean modular architecture following the single-responsibili
 
 ## Project Structure
 
-├── docs/
-│ └── projectdocumentation.md
-├── outputs/
-│ ├── faq.json
-│ ├── product_page.json
-│ └── comparison_page.json
-├── src/
-│ ├── agents/
-│ │ ├── parser_agent.py
-│ │ ├── qa_generator_agent.py
-│ │ ├── comparison_agent.py
-│ │ ├── template_engine_agent.py
-│ │ └── emitter_agent.py
-│ ├── logic_blocks/
-│ │ └── text_blocks.py
-│ ├── data/
-│ │ └── input_product.json
-│ ├── templates/
-│ └── main.py
-├── tests/
-├── requirements.txt
-└── README.md
+    ├── docs/
+    │ └── projectdocumentation.md
+    ├── outputs/
+    │ ├── faq.json
+    │ ├── product_page.json
+    │ └── comparison_page.json
+    ├── src/
+    │ ├── agents/
+    │ │ ├── parser_agent.py
+    │ │ ├── qa_generator_agent.py
+    │ │ ├── comparison_agent.py
+    │ │ ├── template_engine_agent.py
+    │ │ └── emitter_agent.py
+    │ ├── logic_blocks/
+    │ │ └── text_blocks.py
+    │ ├── data/
+    │ │ └── input_product.json
+    │ ├── templates/
+    │ └── main.py
+    ├── tests/
+    ├── requirements.txt
+    └── README.md
 
 
 ---
