@@ -55,22 +55,21 @@ It is designed with clean modular architecture following the single-responsibili
 
 ### 1. Create Virtual Environment
 
-python -m venv venv
+    python -m venv venv
 
 ### 2. Activate the Virtual Environment
 
-Windows:
-    venv\Scripts\activate
+    Windows:
+        venv\Scripts\activate
 
 ### 3. Install Dependencies
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 ### 4. Run the Main Pipeline
-python src/main.py
+    python src/main.py
 
 ### 5. Generated Output Files
-
-Outputs will be automatically created in the /outputs folder:
+    Outputs will be automatically created in the /outputs folder:
 
         product_page.json
 
@@ -80,6 +79,7 @@ Outputs will be automatically created in the /outputs folder:
 
 ## Agents Overview
             Agent	                              Responsibility
+            
         Parser Agent	            Reads input JSON and extracts structured product data
 
         QA Generator Agent	        Generates FAQ-style question–answer pairs
