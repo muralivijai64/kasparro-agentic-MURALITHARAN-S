@@ -54,19 +54,19 @@ The system uses **five independent agents**, each responsible for a single task.
 
 ## 3. Data Flow Pipeline
 
-Input JSON
-↓
-Parser Agent
-↓
-QA Generator Agent
-↓
-Comparison Agent
-↓
-Template Engine Agent
-↓
-Emitter Agent
-↓
-Final Output Files
+    Input JSON
+    -
+    Parser Agent
+    -
+    QA Generator Agent
+    -
+    Comparison Agent
+    -
+    Template Engine Agent
+    -
+    Emitter Agent
+    -
+    Final Output Files
 
 
 This creates a **linear, modular pipeline** for generating clean, structured JSON outputs.
@@ -75,21 +75,21 @@ This creates a **linear, modular pipeline** for generating clean, structured JSO
 
 ## 4. Project Folder Structure
 
-├── docs/
-│ └── projectdocumentation.md
-├── outputs/
-│ ├── faq.json
-│ ├── product_page.json
-│ └── comparison_page.json
-├── src/
-│ ├── agents/
-│ ├── logic_blocks/
-│ ├── data/
-│ ├── templates/
-│ └── main.py
-├── tests/
-├── requirements.txt
-└── README.md
+    ├── docs/
+    │ └── projectdocumentation.md
+    ├── outputs/
+    │ ├── faq.json
+    │ ├── product_page.json
+    │ └── comparison_page.json
+    ├── src/
+    │ ├── agents/
+    │ ├── logic_blocks/
+    │ ├── data/
+    │ ├── templates/
+    │ └── main.py
+    ├── tests/
+    ├── requirements.txt
+    └── README.md
 
 
 Each folder has a clear purpose:
@@ -114,10 +114,10 @@ Windows:
 ### Step 4 — Run the main pipeline
     python src/main.py
 ### Step 5 — Output files will be generated
-Check /outputs/ folder for:
-    product_page.json
-    faq.json
-    comparison_page.json
+    Check /outputs/ folder for:
+        product_page.json
+        faq.json
+        comparison_page.json
 
 ## 6. Key Design Choices
  ### Modular Agent Design
