@@ -1,4 +1,4 @@
-# Kasparro AI Agentic Content Generation System  
+# Kasparro Multi-Agent Content Generation System  
 ### Applied AI Engineer Challenge  
 ### Submission by: **Muralitharan S**
 
